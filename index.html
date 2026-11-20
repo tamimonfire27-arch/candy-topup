@@ -53,5 +53,36 @@ footer{text-align:center;color:#697891;font-size:12px;padding:18px}
 <nav><span><b>⌂</b>হোম</span><span><b>＋</b>Add Money</span><span><b>🛒</b>My Orders</span><span><b>☏</b>Support</span><span><b>♙</b>Profile</span></nav>
 <footer>© মামা TOPUP — Demo website</footer>
 <script>function demo(){alert("এটি শুধু ডেমো। আসল টপআপ এখনো চালু হয়নি।");}</script>
+<section style="padding:20px;background:#eef5ff;border-radius:15px;margin:15px;">
+  <h2 style="text-align:center;color:#0755c9;">💎 মামা TOPUP Order</h2>
+
+  <form onsubmit="event.preventDefault(); alert('এটি ডেমো অর্ডার। এখনো অর্ডার গ্রহণ করা হচ্ছে না।');">
+    <label>প্যাকেজ নির্বাচন করুন</label>
+    <select required style="width:100%;padding:12px;margin:10px 0;">
+      <option value="">প্যাকেজ বেছে নিন</option>
+      <option>25 Diamonds</option>
+      <option>50 Diamonds</option>
+      <option>115 Diamonds</option>
+      <option>240 Diamonds</option>
+      <option>610 Diamonds</option>
+      <option>Weekly Membership</option>
+      <option>Monthly Membership</option>
+      <option>Weekly Lite</option>
+      <option>Friday Special Offer</option>
+    </select>
+
+    <label>Player UID</label>
+    <input type="text" required placeholder="তোমার Free Fire UID"
+    style="width:100%;padding:12px;margin:10px 0;box-sizing:border-box;">
+
+    <label>Player Name (ঐচ্ছিক)</label>
+    <input type="text" placeholder="Player Name"
+    style="width:100%;padding:12px;margin:10px 0;box-sizing:border-box;">
+
+    <button type="submit" style="width:100%;padding:14px;background:#0755c9;color:white;border:0;border-radius:10px;font-size:16px;">
+      অর্ডার সাবমিট করুন
+    </button>
+  </form>
+</section>
 </body>
 </html>
