@@ -1,2 +1,2 @@
-# mama-topup
-মামা TOPUP Free Fire Diamond Store
+# candy-topup
+candy TOPUP Free Fire Diamond Store
